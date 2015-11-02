@@ -1,0 +1,246 @@
+body {
+    background-color: #000;
+    background-image: url("../img/top-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    padding-top: 30px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "open sans", helvetica, arial, sans-serif;
+  }
+
+h2, label {
+  text-transform: uppercase;
+  color: #555;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li, h3 {
+  font-size: 2.5em;
+  line-height: 1.7em;
+  color: #ccc;
+  font-weight: 300;
+  margin: 0;
+}
+
+.part {
+  padding: 0px 10px 100px 10px;
+}
+
+.sponsors img {
+    margin: 1em 2em 0 2em;
+    opacity: 0.8;
+    -webkit-transition: all 0.15s ease-in-out;
+    zoom: 0.5;
+}
+
+.sponsors img:hover {
+    opacity: 1.0;
+}
+
+#logo {
+    max-width: 35%;
+    min-width: 280px;
+    margin: 5% 0 5%;
+    -moz-animation: fadein 2s 1s both; /* Firefox */
+    -webkit-animation: fadein 2s 1s both; /* Safari and Chrome */
+    -o-animation: fadein 2s 1s both; /* Opera */
+    animation: fadein 2s 1s both;
+}
+
+  @-moz-keyframes fadein { /* Firefox */
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+
+  @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+
+  @-o-keyframes fadein { /* Opera */
+      from {
+          opacity:0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+
+  .video-player {
+  position: relative;
+  max-width: 934px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.video-player .video-player-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15%;
+  height: 15%;
+  max-width: 141px;
+  max-height: 141px;
+  margin: -3% 0 0 -3%;
+  background: url('../img/play.png') 0 0 no-repeat;
+  background-size: contain;
+  opacity: 0.0;
+  -webkit-transition: all 0.15s ease-in-out;
+}
+
+.video-player .video-player-backdrop {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.video-player img {
+  width: 100%;
+  max-width: 700px;
+  -webkit-transition: all 0.15s ease-in-out;
+  opacity: 0.9;
+}
+
+.video-player:hover .video-player-play {
+  opacity: 0.7;
+}
+.video-player:hover .video-player-backdrop {
+  opacity: .7;
+}
+.video-player:hover .video-player-caption {
+  opacity: 1;
+}
+
+.video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-player.playing, .video-player.disabled {
+  cursor: default;
+}
+
+.video-player.playing::after, .video-player.disabled::after {
+  display: none;
+}
+
+.share {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.register {
+    margin: 20px 0;
+    font-size: 150%;
+}
+
+.location {
+    text-transform: none;
+    color: white;
+}
+
+.location a {
+    color: white;
+    text-decoration: underline;
+}
+
+.location a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.register:hover {
+}
+
+.register a {
+    font-size: 75%;
+    background: #57C88C;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: none;
+    background-color: #37b87C;
+}
+
+/****************************************************************************
+ * Newsletter Subscribe Form
+ ***************************************************************************/
+
+label {
+    margin-bottom: 20px;
+}
+
+#newsletter-subscribe input {
+    background-color: #111;
+    padding: 10px;
+    color: #999;
+}
+
+#newsletter-subscribe button {
+    background-color: #111;
+    color: #999;
+    padding: 10px;
+    margin-top: -11px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+
+    #newsletter-subscribe button:hover,
+    #newsletter-subscribe input:focus {
+        border-color: #59cb8f;
+        -webkit-box-shadow: 0 0 6px #73e8aa;
+        -moz-box-shadow: 0 0 6px #73e8aa;
+        box-shadow: 0 0 6px #73e8aa;
+    }
