@@ -1,4 +1,4 @@
-# What is Code in the Dark
+# What is [Code in the Dark](http://codeinthedark.com)
 [Code in the Dark](http://codeinthedark.com) is a front-end (HTML, CSS) competition where each contestant compete to implement a website design given only a screenshot. The catch is that no previews of the results are allowed during the implementation, and no measuring tools can be used. The winner is decided by the audience.
 
 During the competition, the contestants have to use our custom editor for Code in the Dark, which [you can try out here](http://codeinthedark.com/editor).
