@@ -38,7 +38,7 @@ Print the following instructions out and make it available for each contestant t
 1. Do not leave the editor during the competition!
 
 ### Creating the Pull Request
-To get your event featured on the [codeinthedark.com](http://codeinthedark.com) website, create a pull request in this repository adding the following code below the "Community Organized Section" section:
+To get your event featured on the [codeinthedark.com](http://codeinthedark.com) website, create a pull request in this repository adding the following code below the "Community Organized Events" section:
 
 ```html
 <p>
