@@ -11,7 +11,7 @@ During the competition, the contestants have to use our custom editor for Code i
 * Once the 15 minute timer runs out each contestant presents their result to the audience, who then vote on their favorite to decide the winner.
 
 # Arranging your own Code in the Dark
-Code in the dark is open sourced - you can use the editor and rules to host your own competition. To host your own event, make a pull request in this repository to have it announced on the [codeinthedark.com](http://codeinthedark.com) website. Please read through and make sure you understand [the license](https://github.com/codeinthedark/codeinthedark.github.io/blob/master/LICENSE) before using the Code in the Dark name or logo in your event.
+Code in the dark is open sourced - you can use the editor and rules to host your own competition. To host your own event, make a pull request (following [these instructions](https://github.com/codeinthedark/codeinthedark.github.io#creating-the-pull-request)) in this repository to have it announced on the [codeinthedark.com](http://codeinthedark.com) website. Please read through and make sure you understand [the license](https://github.com/codeinthedark/codeinthedark.github.io/blob/master/LICENSE) before using the Code in the Dark name or logo in your event.
 
 Read the instructions below on how to run the event. If you have any questions or need any help like hi-res pictures, best practices or anything else, please don't hesitate to contact us at hello@codeinthedark.com!
 
