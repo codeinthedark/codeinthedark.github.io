@@ -37,3 +37,19 @@ Print the following instructions out and make it available for each contestant t
 1. When time runs out, take your hands off the keyboard.
 1. Do not leave the editor during the competition!
 
+### Creating the Pull Request
+To get your event featured on the [codeinthedark.com](http://codeinthedark.com) website, create a pull request in this repository adding the following code below the "Community Organized Section" section:
+
+```html
+<p>
+[CITY] &middot; [DATE] &middot; <a href="[LINK_TO_RSVP_PAGE]" target="_blank">RSVP</a>
+</p>
+```
+
+Replace `[CITY]`, `[DATE]` and `[LINK_TO_RSVP_PAGE]` with your information. Here's an example:
+
+```html
+<p>
+Stockholm &middot; January 22, 2016 &middot; <a href="http://example.com" target="_blank">RSVP</a>
+</p>
+```
