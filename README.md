@@ -1,5 +1,5 @@
 # What is [Code in the Dark](http://codeinthedark.com)
-[Code in the Dark](http://codeinthedark.com) is a front-end (HTML, CSS) competition where each contestant compete to implement a website design given only a screenshot. The catch is that no previews of the results are allowed during the implementation, and no measuring tools can be used. The winner is decided by the audience.
+[Code in the Dark](http://codeinthedark.com) is a front-end (HTML, CSS) competition, originating from [Tictail](https://tictail.com), where each contestant compete to implement a website design given only a screenshot. The catch is that no previews of the results are allowed during the implementation, and no measuring tools can be used. The winner is decided by the audience.
 
 During the competition, the contestants have to use our custom editor for Code in the Dark, which [you can try out here](http://codeinthedark.com/editor).
 
@@ -11,9 +11,9 @@ During the competition, the contestants have to use our custom editor for Code i
 * Once the 15 minute timer runs out each contestant presents their result to the audience, who then vote on their favorite to decide the winner.
 
 # Arranging your own Code in the Dark
-Code in the dark is open sourced - you can use the editor and rules to host your own competition. To host your own event, make a pull request in this repository to have it announced on the [codeinthedark.com](http://codeinthedark.com) website. Please read through and make sure you understand [the license](https://github.com/codeinthedark/codeinthedark.github.io/blob/master/LICENSE) before using the Code in the Dark name or logo in your event.
+Code in the dark is open sourced - you can use the editor and rules to host your own competition. To host your own event, make a pull request (following [these instructions](https://github.com/codeinthedark/codeinthedark.github.io#creating-the-pull-request)) in this repository to have it announced on the [codeinthedark.com](http://codeinthedark.com) website. Please read through and make sure you understand [the license](https://github.com/codeinthedark/codeinthedark.github.io/blob/master/LICENSE) before using the Code in the Dark name or logo in your event.
 
-Read the instructions below on how to run the event. If you have any questions or need any help like hi-res pictues, best practices or anything else, please don't hesitate to contact us at hello@codeinthedark.com!
+Read the instructions below on how to run the event. If you have any questions or need any help like hi-res pictures, best practices or anything else, please don't hesitate to contact us at hello@codeinthedark.com!
 
 ### Setting Up the Competition
 Each contestant bring their own laptop to the event, but it is recommended that you provide them with an external monitor each. These monitor should be turned facing away from the contestant and towards the audience, so that they can follow along during the competition. 
@@ -37,3 +37,19 @@ Print the following instructions out and make it available for each contestant t
 1. When time runs out, take your hands off the keyboard.
 1. Do not leave the editor during the competition!
 
+### Creating the Pull Request
+To get your event featured on the [codeinthedark.com](http://codeinthedark.com) website, create a pull request in this repository adding the following code below the "Community Organized Events" section:
+
+```html
+<p>
+[CITY] &middot; [DATE] &middot; <a href="[LINK_TO_RSVP_PAGE]" target="_blank">RSVP</a>
+</p>
+```
+
+Replace `[CITY]`, `[DATE]` and `[LINK_TO_RSVP_PAGE]` with your information. Here's an example:
+
+```html
+<p>
+Stockholm &middot; January 22, 2016 &middot; <a href="http://example.com" target="_blank">RSVP</a>
+</p>
+```
