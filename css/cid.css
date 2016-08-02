@@ -11,7 +11,7 @@ body {
 
 h2, label {
   text-transform: uppercase;
-  color: #555;
+  color: #ccc/*#555*/;
   font-weight: 700;
   font-size: 1em;
   margin: 0;
@@ -23,11 +23,21 @@ ul {
 }
 
 li, h3 {
-  font-size: 2.5em;
+  font-size: 30px;
   line-height: 1.7em;
   color: #ccc;
   font-weight: 300;
   margin: 0;
+}
+
+h4 {
+  color: #ccc;
+  font-size: 18px;
+}
+
+h1 {
+  color: #ccc;
+  font-size: 40px;
 }
 
 .part {
@@ -46,7 +56,7 @@ li, h3 {
 }
 
 #logo {
-    max-width: 35%;
+    max-width: 45%;
     min-width: 280px;
     margin: 5% 0 5%;
     -moz-animation: fadein 2s 1s both; /* Firefox */
@@ -168,7 +178,7 @@ li, h3 {
 
 .register {
     margin: 20px 0;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 .location {
@@ -244,3 +254,11 @@ label {
         -moz-box-shadow: 0 0 6px #73e8aa;
         box-shadow: 0 0 6px #73e8aa;
     }
+
+.rules {
+  color:white;
+}
+
+.heading-alt {
+  color: #58ca8e;
+}

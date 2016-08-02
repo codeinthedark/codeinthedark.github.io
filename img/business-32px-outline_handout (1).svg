@@ -1,0 +1,13 @@
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+<g transform="translate(0, 0)">
+<path data-cap="butt" fill="none" stroke="#0ccc67" stroke-width="2" stroke-miterlimit="10" d="M5,16h1c2.3,0,4.8,1.2,6,3h4
+	c2,0,4,2,4,4h-9" stroke-linejoin="round" stroke-linecap="round"></path>
+<path data-cap="butt" fill="none" stroke="#0ccc67" stroke-width="2" stroke-miterlimit="10" d="M19.4,21H26c3.6,0,4,2,4,2l-14.3,5.8
+	c-1.1,0.5-2.4,0.4-3.5-0.1L5,25" stroke-linejoin="round" stroke-linecap="round"></path>
+<circle data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="24" cy="12" r="4" stroke-linejoin="round"></circle>
+<rect x="1" y="14" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="4" height="13" stroke-linejoin="round"></rect>
+<circle data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="12" cy="6" r="4" stroke-linejoin="round"></circle>
+<line data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="11" y1="6" x2="13" y2="6" stroke-linejoin="round"></line>
+<line data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="23" y1="12" x2="25" y2="12" stroke-linejoin="round"></line>
+</g>
+</svg>
