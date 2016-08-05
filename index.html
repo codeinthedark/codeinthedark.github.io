@@ -1,167 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Code in the Dark - you thought you knew front-end
-        </title>
-        <meta name="description" content="Code in the Dark, you thought you knew front-end. Code in the Dark is a programming competition concept created by Tictail.">
-        <meta name="author" content="Tictail">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/cid.css" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-        <link rel="shortcut icon" href="/favicon.ico">
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <head>
+      <meta charset="utf-8">
+      <title>
+          Code in the Dark Bratislava
+      </title>
+      <meta name="description" content="Code in the Dark, you thought you knew front-end. Code in the Dark is a programming competition concept created by Learn2code.">
+      <meta name="autor" content="Learn2code">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-          ga('create', 'UA-26369943-9', 'codeinthedark.com');
-          ga('send', 'pageview');
+      <meta property="og:url" content="http://codeinthedark.sk" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Príď na prvý Code in the Dark na Slovensku a staň sa šampiónom front-endu!" />
+      <meta property="og:description" content="Myslíš si, že ovládaš front-end? Máš HTML a CSS v malíčku? Learn2Code ťa pozýva na súťaž Code in the Dark, kde môžeš ukázať svoje skilly." />
+      <meta property="og:image" content="http://codeinthedark.sk/img/fb.png" />
+      <meta property="og:author" content="Learn2code" />
 
-        </script>
-    </head>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/cid.css" />
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+      <link rel="shortcut icon" href="/favicon.ico">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <body>
-      <div class="container">
-        <div class="share">
-          <div class="button" style="position: relative;">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codeinthedark.com/" data-via="tictail">Tweet</a>
-            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ffacebook.com%2Fshare&layout=button_count&size=small&mobile_iframe=false&width=89&height=20&appId" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        ga('create', 'UA-26369943-9', 'codeinthedark.com');
+        ga('send', 'pageview');
 
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </script>
+  </head>
+
+  <body>
+    <div id="fullpage" style="width:100%; overflow:hidden;">
+      <div class="section">
+        <div class="container">
+          <div class="share">
+            <div class="button" style="position: relative;">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codeinthedark.sk/" data-via="Learn2Code_sk">Tweet</a>
+              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fcodeinthedark.sk&layout=button&size=small&mobile_iframe=true&width=67&height=20&appId" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
           </div>
-        </div>
 
-        <div id="top-background"></div>
-        <img id="logo" src="img/logo.png" alt="Code In the Dark - Logo">
+          <div id="top-background"></div>
+          <div style="width:100%; height:auto;">
+            <img id="logo" src="img/logo.png" alt="Code In the Dark - Logo">
 
-        <div class="part">
-          <!-- Begin MailChimp Signup Form -->
-          <h1>Si král front-endu? Tak to prijdi dokázať a vyhraj <strong>300&euro;</strong> na ruku!</h1>
-          <br/>
-          <h4 class="heading-alt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum. </h4><br/>
-          <div class="register btn-large">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlCMgcWVORvuWYDo5f_C2FUmL-TNQC_Oa8kz-0uUtQVLAOMw/viewform" style="background-color:#58ca8e;" target="blank">Registruj sa!</a>
+            <div class="part">
+              <!-- Begin MailChimp Signup Form -->
+              <h1>Myslíš, že si najlepší front-enďák? Príď to dokázať na prvý Code in the Dark na Slovensku.</h1>
+              <h4 class="heading-alt">23.9.2016 od 18:30 | Impact Hub Bratislava</h4>
+              <div class="register btn-large">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlCMgcWVORvuWYDo5f_C2FUmL-TNQC_Oa8kz-0uUtQVLAOMw/viewform" target="blank">Registruj sa!</a>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
           </div>
-          <a href="http://www.facebook.com" style="color:white;">Facebook udalosť</a>
-          <!--End mc_embed_signup-->
         </div>
       </div>
 
-      <div class="container">
-        <div class="row rules">
-          <div class="col-xs-12 col-md-4">
-            <img alt="design" width="48" src="img/design-32px-outline_image (2).svg">
-            <h3 class="heading-alt">Dostaneš design</h3>
-            <h4 class="section-subtitle reason">Nejprv ti dáme screen appky alebo design webu.</h4>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <img alt="code" width="48" src="img/design-32px-outline_code (2).svg">
-            <h3 class="heading-alt">Napodobni ho v kóde</h3>
-            <h4 class="section-subtitle reason">Tvojou úlohou bude ho čo nejlepšie napodobiť pomocou HTML/CSS.</h4>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <img alt="no preview" width="48" src="img/ui-32px-outline-1_eye-ban-18 (2).svg">
-            <h3 class="heading-alt">Žiadný preview</h3>
-            <h4 class="section-subtitle reason">Nesmieš používat browser, dostaneš iba assety a špeciálny Code in the Dark editor.</h4>
-          </div>
-        </div><br/><br/><br/><br/><br/><br/>
-        <div class="row rules">
-          <div class="col-xs-12 col-md-4">
-            <img alt="15 minutes" width="48" src="img/tech-32px-outline_watch-time (2).svg">
-            <h3 class="heading-alt">Máš 15 minút</h3>
-            <h4 class="section-subtitle reason">Na všetko máš iba 15 minut a ani o sekundu viac alebo menej.</h4>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <img alt="champion" width="48" src="img/education-32px-outline_award-55 (2).svg">
-            <h3 class="heading-alt">Jeden šampión</h3>
-            <h4 class="section-subtitle reason">Ten, kdo dokáže najlepšie napodobiť pôvodný design, tak berie všetko.</h4>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <img alt="prize-money" width="48" src="img/business-32px-outline_handout (1).svg">
-            <h3 class="heading-alt">Prize Money: 300&euro;</h3>
-            <h4 class="section-subtitle reason">Dostaneš od nás desítku a ješte k tomu Avocode na rok zadáčo.</h4>
+      <div class="section">
+        <div class="container">
+        <h3 class="heading-alt">Pravidlá sú jednoduché:</h3><br/><br/>
+          <div class="row rules">
+            <div class="col-xs-12 col-md-3">
+              <img alt="design" width="48" src="img/design-32px-outline_image (2).svg">
+              <h3 class="heading-alt">dostaneš design</h3>
+              <h4 class="section-subtitle reason">screenshot appky alebo design webu</h4>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <img alt="code" width="48" src="img/design-32px-outline_code (2).svg">
+              <h3 class="heading-alt">napodobni ho</h3>
+              <h4 class="section-subtitle reason">čo najlepšie ho napodobni v HTML a CSS <br/>máš na to <b>15 minút</b></h4>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <img alt="no preview" width="48" src="img/ui-32px-outline-1_eye-ban-18 (2).svg">
+              <h3 class="heading-alt">žiadne previews</h3>
+              <h4 class="section-subtitle reason">žiaden Photoshop, používaš špeciálny Code in the Dark editor</h4>
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <img alt="no preview" width="48" src="img/education-32px-outline_award-55 (2).svg">
+              <h3 class="heading-alt">jeden šampión</h3>
+              <h4 class="section-subtitle reason">o víťazovi rozhodujú prítomní diváci hlasovaním</h4>
+            </div>
           </div>
         </div>
-      </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      </div>
+      <div class="section">
+        <div class="container" style="padding-top:40px;">
+          <div class="row">
+            <h3 class="heading-alt">Ako prebieha súťaž?</h3>
+            <h4>Code in the Dark je frontendová súťaž s párty atmosférou. Do súťaže berieme 20 najlepších kóderov. Súťažiaci budú medzi sebou súťažiť 5 naraz a víťazi jednotlivých kôl postupujú do finále. Budeš mať jednoduchý editor bez pluginov a screenshot, na ktorý sa môžeš pozrieť koľkokrát chceš.</h4><h4> Všetok tvoj kód je replikovaný na externý monitor otočený smerom k publiku, ktoré tak môže sledovať, čo robia jednotliví súťažiaci. O víťazovi každého kola ako aj celkovom víťazovi rozhoduje publikum hlasovaním.</h4>
+            <h4>Nemusíš byť developer, aby si sa zabavil na Code in the Dark, každý je vítaný. Počas kódovania bude čo jesť, piť aj počúvať. Príď podporiť našich statočných súťažiacich a rozhodni o víťazovi, prvom slovenskom <strong>Code in the Dark šampiónovi.</strong> </h4>
+          </div>
+        </div>
+      </div>
 
-      <div class="container">
-        <div class="row">
-
-          <h3 class="heading-alt">Learn2code SE POSTARÁ O SWAG A TVŮJ KOMFORT</h3>
-          <h4>Přijď než v novém kanclu nahodíme světla. Během kódování ve tmě za světla monitorů bude co pít, co jíst, co poslouchat a taky se postaráme o přihlížející fanoušky!</h4>
-        </div><br/><br/><br/><br/><br/><br/><br/>
-
-        <div class="row">
-          <div class="col-xs-12 col-md-3">
+      <div class="section">
+        <div class="row" style="padding-top:80px;">
+          <div class="col-md-2"></div>
+          <div class="col-xs-12 col-md-2">
             <img alt="prize-money" width="48" src="img/logout.png">
             <h3>Vstup zdarma</h3>
           </div>
-          <div class="col-xs-12 col-md-3">
-            <img alt="prize-money" width="48" src="img/register.png">
-            <h3>Registracia</h3>
-          </div>
-          <div class="col-xs-12 col-md-3">
-            <img alt="prize-money" width="48" src="img/placeholder.png">
+          <div class="col-xs-12 col-md-2">
+            <img alt="prize-money" width="48" src="img/beer.png">
             <h3>
-            V centre Bratislavy
+            Pivo
             </h3>
           </div>
-          <div class="col-xs-12 col-md-3">
+          <div class="col-xs-12 col-md-2">
             <img alt="prize-money" width="48" src="img/pizza.png">
-            <h3>Obcerstvenie</h3>
+            <h3>Pizza</h3>
           </div>
-        </div><br/><br/><br/><br/><br/><br/><br/><br/>
+          <div class="col-xs-12 col-md-2">
+            <img alt="prize-money" width="48" src="img/dancer.png">
+            <h3>Afterparty</h3>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
 
-        <div class="row">
-          <h3 class="heading-alt">23.9.2016</h3><br/><br/>
-          <h4>
-            Impact Hub</h4>
-          <h4>  Hviezdoslavovo námestie</h4>
-          <h4>  Bratislava</h4>
+        <div class="row" style="padding-top:80px;">
           <div class="register btn-large">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlCMgcWVORvuWYDo5f_C2FUmL-TNQC_Oa8kz-0uUtQVLAOMw/viewform" style="background-color:#58ca8e;" target="blank">Registruj sa!</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlCMgcWVORvuWYDo5f_C2FUmL-TNQC_Oa8kz-0uUtQVLAOMw/viewform" target="blank">Registruj sa!</a>
           </div>
+          <h2 style="padding-top:40px;"><a class="heading-alt link-hover"  target="blank" href="https://www.eventbrite.com/e/code-in-the-dark-bratislava-2016-tickets-26902041731">Registrácia fanúšikov</a> </h2>
+          <h2 style="padding-top:45px;"><a class="heading-alt link-hover" target="blank" href="https://www.facebook.com/events/1123426764398122/">Facebook event</a> </h2>
+        </div>
+      </div>
 
+      <div class="section">
+        <div class="row" style="padding-top:80px">
+          <div class="col-xs-12">
+            <h3 class="heading-alt" >Hrdý organizátor:</h3>
+            <a href="http://www.learn2code.sk" target="blank"> <img src="img/learn2code.png" width="100" style="padding-top:40px" ></a>
+          </div>
         </div>
 
-      </div><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div class="row" style="padding-top:60px">
+          <div class="col-xs-12">
+            <h3 class="heading-alt">Sponzori: </h3>
+            <a href="https://www.accenture.com/sk-sk/Careers" target="blank" ><img src="img/accenture-logo.png" width="170" style="padding-top:40px"></a>
+          </div>
+        </div>
+        <div class="row" style="padding-top:60px">
+          <div class="col-xs-12">
+            <h3 class="heading-alt">Chcete byť sponzor? </h3><br/>
+            <div class="contact-us btn-large">
+            <a href="mailto:info@learn2code.sk">Napíšte nám</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    <div class="section">
+      <div class="row" style="padding-top:80px">
+        <h3 class="heading-alt">KONTAKT</h3>
+        <h4>Zaujíma ťa niečo o evente?</h4>
+        <h4>Napíš nám na info@learn2code.sk.</h4>
+        <h4>Alebo zavolaj na +421 949 428 812</h4>
+
+      </div>
+      <div class="row" style="padding-top:40px;">
+        <h4 class="heading-alt">Nezmeškaj žiadne podobné eventy</h4>
+      </div>
       <div class="row">
-        <h3>Sponzori</h3><br/><br/><br/><br/>
+        <div class="col-xs-12 col-md-5"></div>
         <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <img src="img/learn2code.png" width="100">
-        </div>
-      </div><br/><br/><br/><br/><br/><br/>
 
-    <div class="part">
-        <h2>Proudly presented by</h2>
-        <div class='sponsors'>
-            <a href='https://tictail.com' target='_blank'><img src='img/logo_tictail.png' alt='Tictail logo'/></a>
-        </div>
-    </div>
+          <div id="mlb2-2793611" class="ml-subscribe-form ml-subscribe-form-2793611 custom-form">
+              <div class="ml-vertical-align-center">
+                  <div class="subscribe-form ml-block-success" style="display:none">
+                      <div class="form-section">
+                          <h4></h4>
+                          <p>Pošleme ti info o nových cool eventoch.</p>
+                      </div>
+                  </div>
+                <form class="ml-block-form" action="http://app.mailerlite.com/webforms/submit/j7w8j1" data-id="150127" data-code="j7w8j1" method="POST" target="_blank">
+                    <div class="subscribe-form">
+                        <div class="form-section">
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                        <div class="form-section">
+                            <div class="form-group ml-field-email ml-validate-required ml-validate-email">
+                                <input type="text" name="fields[email]" class="form-control" placeholder="Email*" value="">
+                            </div>
+                        </div>
+                        <input type="hidden" name="ml-submit" value="1" />
+                        <button type="submit" class="primary gradient-on">
+                            Odoslať
+                        </button>
+                        <button disabled="disabled" style="display: none;" type="button" class="loading gradient-on">
+                            <img src="//static.mailerlite.com/images/rolling.gif" width="20" height="20" style="width: 20px; height: 20px;">
+                        </button>
+                    </div>
+                </form>
+                <script>
+                    function ml_webform_success_2793611() {
+                        jQuery('.ml-subscribe-form-2793611 .ml-block-success').show();
+                        jQuery('.ml-subscribe-form-2793611 .ml-block-form').hide();
+                    };
+                </script>
+              </div>
+            </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
-    <script src="/js/bootstrap.js"></script>
-    <script src="/js/scripts.js"></script>
+            <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?vcdf1983d82010d03e3d306109f0470df"></script>
+          </div>
+        <div class="col-xs-12 col-md-5"></div>
+      </div><br/><br/>
+
+      <div class="row" style="padding-bottom:50px">
+          <h2>Špeciálne poďakovanie:</h2>
+          <div class='sponsors'>
+              <a href='https://tictail.com' target='_blank'><img src='img/logo_tictail.png' alt='Tictail logo'/></a>
+          </div>
+      </div>
+    </div> <!-- end of last section -->
+  </div> <!-- end of fullpage -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/jquery.fullPage.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+<!--     <script>$(document).ready(function() {
+    $('#fullpage').fullpage();
+});</script> -->
   </body>
 </html>

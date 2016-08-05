@@ -30,6 +30,18 @@ li, h3 {
   margin: 0;
 }
 
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+
+  h4 {
+    font-size: 12px;
+    line-height: 0.9em;
+  }
+}
+
 h4 {
   color: #ccc;
   font-size: 18px;
@@ -37,7 +49,7 @@ h4 {
 
 h1 {
   color: #ccc;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .part {
@@ -45,10 +57,12 @@ h1 {
 }
 
 .sponsors img {
+  width: 100px;
     margin: 1em 2em 0 2em;
     opacity: 0.8;
-    -webkit-transition: all 0.15s ease-in-out;
-    zoom: 0.5;
+/*    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;*/
+    /*zoom: 0.5;*/
 }
 
 .sponsors img:hover {
@@ -56,9 +70,9 @@ h1 {
 }
 
 #logo {
-    max-width: 45%;
+    max-width: 35%;
     min-width: 280px;
-    margin: 5% 0 5%;
+    margin: 3% 0 3%;
     -moz-animation: fadein 2s 1s both; /* Firefox */
     -webkit-animation: fadein 2s 1s both; /* Safari and Chrome */
     -o-animation: fadein 2s 1s both; /* Opera */
@@ -178,7 +192,17 @@ h1 {
 
 .register {
     margin: 20px 0;
-    font-size: 250%;
+    font-size: 230%;
+}
+.heading-alt {
+  color: #58ca8e;
+}
+
+@media screen and (max-width: 480px) {
+  .register {
+    font-size: 120%;
+    margin: 10px 0;
+  }
 }
 
 .location {
@@ -196,21 +220,38 @@ h1 {
     text-decoration: underline;
 }
 
-.register:hover {
-}
-
 .register a {
-    font-size: 75%;
-    background: #57C88C;
-    padding: 10px 30px;
-    color: #fff;
-    border-radius: 50px;
-    text-decoration: none;
+  font-size: 75%;
+  background: #58ca8e;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
 }
 
 .register a:hover {
-    text-decoration: none;
-    background-color: #37b87C;
+  text-decoration: none;
+  background-color: #409b6b;
+}
+
+.contact-us a {
+  font-size: 100%;
+  background: #58ca8e;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.contact-us a:hover {
+  text-decoration: none;
+  background-color: #409b6b;
+
+}
+
+.link-hover:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /****************************************************************************
@@ -259,6 +300,215 @@ label {
   color:white;
 }
 
-.heading-alt {
-  color: #58ca8e;
+
+/*for form*/
+#mlb2-2793611,
+#mlb2-2793611 *,
+#mlb2-2793611 a:hover,
+#mlb2-2793611 a:visited,
+#mlb2-2793611 a:active {
+  overflow: visible;
+  position: static;
+  background: none;
+  border: none;
+  bottom: auto;
+  clear: none;
+  cursor: default;
+  float: none;
+  font-size: medium;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-indent: 0;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  max-height: none;
+  max-width: none;
+  left: auto;
+  min-height: 0;
+  min-width: 0;
+  right: auto;
+  top: auto;
+  width: auto;
+  z-index: auto;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+#mlb2-2793611 h4 {
+  font-weight: normal;
+}
+
+#mlb2-2793611 .subscribe-form {
+  /*padding: 20px;*/
+  width: 210px !important;
+  border: 2px solid #000!important;
+  background: #000 none!important;
+  -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 10px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section {
+  /*float: left;*/
+  /*width: 100%;*/
+  margin-bottom: 20px;
+}
+
+#mlb2-2793611 .subscribe-form .form-section h4 {
+  margin: 0px 0px 15px 0px;
+  padding: 0px!important;
+  color: #58ca8e!important;
+  font-family: Arial!important;
+  font-size: 20px!important;
+  line-height: 100%;
+  text-align: !important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section p {
+  line-height: 150%;
+  padding: 0px!important;
+  margin: 0px 0px 0px 0px;
+  color: #000000!important;
+  font-family: Arial!important;
+  font-size: 13px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section a {
+  font-size: 13px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .confirmation_checkbox {
+  line-height: 150%;
+  padding: 0px!important;
+  margin: 0px 0px 0px 0px;
+  margin-bottom: 15px!important;
+  color: #000000!important;
+  font-family: Arial!important;
+  font-size: 12px!important;
+  font-weight: normal !important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .confirmation_checkbox input[type="checkbox"] {
+  margin-right: 5px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .form-group {
+  margin-bottom: 15px;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .form-group label {
+  float: left;
+  margin-bottom: 10px;
+  width: 100%;
+  line-height: 100%;
+  font-weight: bold;
+  color: #000000!important;
+  font-family: Arial!important;
+  font-size: 13px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .checkbox {
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .checkbox label {
+  color: #000000!important;
+  font-family: Arial!important;
+  font-size: 13px!important;
+}
+
+#mlb2-2793611 .subscribe-form .form-section .checkbox input {
+  margin: 0px 5px 0px 0px;
+}
+
+#mlb2-2793611.ml-subscribe-form .form-group .form-control {
+  width: 60%;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  font-family: Arial;
+  border-radius: 5px;
+  border: 2px solid #BDC3C7!important;
+  color: #000000!important;
+  background-color: #FFFFFF!important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: left;
+  float:left;
+}
+
+#mlb2-2793611.ml-subscribe-form button {
+  border: none !important;
+  cursor: pointer !important;
+  width: 40% !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+  background-color: #58ca8e!important;
+  color: #FFFFFF!important;
+  font-family: Arial!important;
+  font-size: 16px!important;
+  text-align: center !important;
+  float:left;
+}
+
+#mlb2-2793611.ml-subscribe-form button.gradient-on {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+#mlb2-2793611.ml-subscribe-form button.gradient-on:hover {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-color: #409d7e;
+}
+
+#mlb2-2793611.ml-subscribe-form button[disabled] {
+  cursor: not-allowed!important;
+}
+
+#mlb2-2793611.ml-subscribe-form .form-section.ml-error label {
+  color: red!important;
+}
+
+#mlb2-2793611.ml-subscribe-form .form-group.ml-error label {
+  color: red!important;
+}
+
+#mlb2-2793611.ml-subscribe-form .form-group.ml-error .form-control {
+  border-color: red!important;
+}
+
+@media screen and (max-width: 400px) {
+  .custom-form {
+    margin:0 19%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  .custom-form {
+    margin:0 30%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .custom-form {
+    margin:0 35%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .custom-form {
+    margin:0 40%;
+  }
 }
