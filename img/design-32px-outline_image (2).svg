@@ -1,0 +1,8 @@
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32"><g transform="translate(0, 0)">
+<polyline data-cap="butt" data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-miterlimit="10" points="14.858,21.142 22,14 
+	31,22 " stroke-linejoin="round" stroke-linecap="round"></polyline>
+<polyline data-cap="butt" data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-miterlimit="10" points="1,25 10,17 
+	18.501,24.249 " stroke-linejoin="round" stroke-linecap="round"></polyline>
+<rect x="1" y="3" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="30" height="26" stroke-linejoin="round"></rect>
+<circle data-color="color-2" fill="none" stroke="#0ccc67" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="14.5" cy="10.5" r="2.5" stroke-linejoin="round"></circle>
+</g></svg>
