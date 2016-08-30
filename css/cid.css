@@ -7,6 +7,7 @@ body {
     padding-top: 30px;
     -webkit-font-smoothing: antialiased;
     font-family: "open sans", helvetica, arial, sans-serif;
+    overflow-x: hidden;
   }
 
 h2, label {
@@ -23,7 +24,7 @@ ul {
 }
 
 li, h3 {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.7em;
   color: #ccc;
   font-weight: 300;
@@ -50,6 +51,10 @@ h4 {
 h1 {
   color: #ccc;
   font-size: 25px;
+}
+
+h5 {
+  font-size: 16px;
 }
 
 .part {
@@ -254,6 +259,33 @@ h1 {
   text-decoration: none;
 }
 
+.custom-line-height {
+  line-height: 1.6em;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-t-80 {
+  margin-top: 80px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.m-t-60 {
+  margin-top: 60px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
 /****************************************************************************
  * Newsletter Subscribe Form
  ***************************************************************************/
