@@ -34,6 +34,12 @@ li, h3 {
   padding: 0px 10px 100px 10px;
 }
 
+.part p {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
 .sponsors img {
     margin: 1em 2em 0 2em;
     opacity: 0.8;
