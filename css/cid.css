@@ -41,14 +41,12 @@ li, h3 {
 }
 
 .sponsors img {
-    margin: 1em 2em 0 2em;
-    opacity: 0.8;
-    -webkit-transition: all 0.15s ease-in-out;
-    zoom: 0.5;
+    margin-top: 1em;
 }
 
-.sponsors img:hover {
-    opacity: 1.0;
+.shopify-logo {
+  width: 215px;
+  height: auto;
 }
 
 #logo {
@@ -115,7 +113,7 @@ li, h3 {
   margin: -3% 0 0 -3%;
   background: url('../img/play.png') 0 0 no-repeat;
   background-size: contain;
-  opacity: 0.0;
+  opacity: 0.9;
   -webkit-transition: all 0.15s ease-in-out;
 }
 
@@ -140,7 +138,7 @@ li, h3 {
 }
 
 .video-player:hover .video-player-play {
-  opacity: 0.7;
+  opacity: 1;
 }
 .video-player:hover .video-player-backdrop {
   opacity: .7;
