@@ -1,15 +1,64 @@
-body {
-    background-color: #000;
-    background-image: url("../img/top-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    text-align: center;
-    padding-top: 30px;
-    -webkit-font-smoothing: antialiased;
-    font-family: "open sans", helvetica, arial, sans-serif;
-  }
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
 
-h2, label {
+body {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 40px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  background-image: url("../img/top-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding-top: 30px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "open sans", helvetica, arial, sans-serif;
+}
+
+h2,
+label {
   text-transform: uppercase;
   color: #555;
   font-weight: 700;
@@ -20,9 +69,11 @@ h2, label {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
-li, h3 {
+li,
+h3 {
   font-size: 2.5em;
   line-height: 1.7em;
   color: #ccc;
@@ -35,13 +86,13 @@ li, h3 {
 }
 
 .part p {
-    font-size: 1.25em;
-    margin-bottom: 15px;
-    color: #fff;
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  color: #fff;
 }
 
 .sponsors img {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .shopify-logo {
@@ -50,52 +101,52 @@ li, h3 {
 }
 
 #logo {
-    max-width: 35%;
-    min-width: 280px;
-    margin: 5% 0 5%;
-    -moz-animation: fadein 2s 1s both; /* Firefox */
-    -webkit-animation: fadein 2s 1s both; /* Safari and Chrome */
-    -o-animation: fadein 2s 1s both; /* Opera */
-    animation: fadein 2s 1s both;
+  max-width: 35%;
+  min-width: 280px;
+  margin: 5% 0 5%;
+  -moz-animation: fadein 2s 1s both;
+  -webkit-animation: fadein 2s 1s both;
+  -o-animation: fadein 2s 1s both;
+  animation: fadein 2s 1s both;
 }
 
-  @-moz-keyframes fadein { /* Firefox */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
   }
-
-  @-webkit-keyframes fadein { /* Safari and Chrome */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
+  to {
+    opacity: 1;
   }
+}
 
-  @-o-keyframes fadein { /* Opera */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity: 1;
-      }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
   }
-
-  @keyframes fadein {
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
+  to {
+    opacity: 1;
   }
+}
 
-  .video-player {
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.video-player {
   position: relative;
   max-width: 934px;
   margin: 0 auto;
@@ -111,7 +162,7 @@ li, h3 {
   max-width: 141px;
   max-height: 141px;
   margin: -3% 0 0 -3%;
-  background: url('../img/play.png') 0 0 no-repeat;
+  background: url("../img/play.png") 0 0 no-repeat;
   background-size: contain;
   opacity: 0.9;
   -webkit-transition: all 0.15s ease-in-out;
@@ -141,7 +192,7 @@ li, h3 {
   opacity: 1;
 }
 .video-player:hover .video-player-backdrop {
-  opacity: .7;
+  opacity: 0.7;
 }
 .video-player:hover .video-player-caption {
   opacity: 1;
@@ -155,56 +206,55 @@ li, h3 {
   height: 100%;
 }
 
-.video-player.playing, .video-player.disabled {
+.video-player.playing,
+.video-player.disabled {
   cursor: default;
 }
 
-.video-player.playing::after, .video-player.disabled::after {
+.video-player.playing::after,
+.video-player.disabled::after {
   display: none;
 }
 
 .share {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
 }
 
 .register {
-    margin: 20px 0;
-    font-size: 150%;
+  margin: 20px 0;
+  font-size: 150%;
 }
 
 .location {
-    text-transform: none;
-    color: white;
+  text-transform: none;
+  color: white;
 }
 
 .location a {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 .location a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.register:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .register a {
-    font-size: 75%;
-    background: #57C88C;
-    padding: 10px 30px;
-    color: #fff;
-    border-radius: 50px;
-    text-decoration: none;
+  font-size: 75%;
+  background: #57c88c;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
 }
 
 .register a:hover {
-    text-decoration: none;
-    background-color: #37b87C;
+  text-decoration: none;
+  background-color: #37b87c;
 }
 
 /****************************************************************************
@@ -212,39 +262,39 @@ li, h3 {
  ***************************************************************************/
 
 label {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #newsletter-subscribe input {
-    background-color: #111;
-    padding: 10px;
-    color: #999;
+  background-color: #111;
+  padding: 10px;
+  color: #999;
 }
 
 #newsletter-subscribe button {
-    background-color: #111;
-    color: #999;
-    padding: 10px;
-    margin-top: -11px;
-    margin-left: 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -webkit-transition: border linear .2s,box-shadow linear .2s;
-    -moz-transition: border linear .2s,box-shadow linear .2s;
-    -o-transition: border linear .2s,box-shadow linear .2s;
-    transition: border linear .2s,box-shadow linear .2s;
+  background-color: #111;
+  color: #999;
+  padding: 10px;
+  margin-top: -11px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
 }
 
-    #newsletter-subscribe button:hover,
-    #newsletter-subscribe input:focus {
-        border-color: #59cb8f;
-        -webkit-box-shadow: 0 0 6px #73e8aa;
-        -moz-box-shadow: 0 0 6px #73e8aa;
-        box-shadow: 0 0 6px #73e8aa;
-    }
+#newsletter-subscribe button:hover,
+#newsletter-subscribe input:focus {
+  border-color: #59cb8f;
+  -webkit-box-shadow: 0 0 6px #73e8aa;
+  -moz-box-shadow: 0 0 6px #73e8aa;
+  box-shadow: 0 0 6px #73e8aa;
+}
