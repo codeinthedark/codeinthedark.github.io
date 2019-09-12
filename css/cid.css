@@ -41,7 +41,8 @@ p {
   margin: 0 0 10px;
 }
 
-a {
+a,
+a:visited {
   color: #08c;
   text-decoration: none;
 }
