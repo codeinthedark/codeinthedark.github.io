@@ -92,6 +92,10 @@ h3 {
   color: #fff;
 }
 
+.part .p-small {
+  font-size: 1em;
+}
+
 .sponsors img {
   margin-top: 1em;
 }
