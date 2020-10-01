@@ -1,5 +1,5 @@
 # What is [Code in the Dark](http://codeinthedark.com)
-[Code in the Dark](http://codeinthedark.com) is a front-end (HTML, CSS) competition, originating from [Tictail](https://tictail.com), where each contestant compete to implement a website design given only a screenshot. The catch is that no previews of the results are allowed during the implementation, and no measuring tools can be used. The winner is decided by the audience.
+[Code in the Dark](http://codeinthedark.com) is a competition of front-end (HTML, CSS) development, originating from [Tictail](https://tictail.com), where each contestant compete to implement a website design as only a screenshot of the design will be provided to the contestant. The catch is that no previews of the results are allowed during the implementation, and no measuring tools can be used. The winner is decided by the audience only.
 
 During the competition, the contestants have to use our custom editor for Code in the Dark, which [you can try out here](http://codeinthedark.com/editor).
 
